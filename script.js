@@ -511,12 +511,10 @@ p7inner.forEach((element) => {
     element.childNodes[3].style.scale = 1;
     element.childNodes[1].style.color = "white";
     p7h1.style.webkitTextStroke = "2.5px #91b508";
-    crsr.style.zIndex = 20;
   });
   element.addEventListener("mouseleave", () => {
     element.childNodes[3].style.scale = 1.5;
     element.childNodes[1].style.color = "black";
     p7h1.style.webkitTextStroke = "1px #fff";
-    crsr.style.zIndex = 16;
   });
 });
